@@ -1,16 +1,24 @@
-
-.container_header h2 {
+body{
+    width: 1920px;
+}
+.container_header p {
     margin: 0;
-    padding: 0 0 0 0;
+    color: white;
+    font-size: 24px;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-optical-sizing: auto;
 }
 
 
 .container_header {
     display: flex;
-    padding: 27px 316px ;
     align-items: center;
-    flex-direction: row;
-    margin: 0
+    height: 60px;
+    padding: 27px 0 27px 316px;
+    margin: 0;
+    background-color: #1B1B1B;
     
     
 
@@ -21,6 +29,11 @@
     margin: 0; 
     font-weight: 700;
     font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
     
     
 
@@ -30,19 +43,59 @@
     padding: 0 0 0 298px;
 }
 
-.butoon_feedback {
-    padding: 15px 25px;
+.button_feedback {
+    padding: 8px 24px;
     border-radius: 25px;
     background-color: #ffffff00;
-    border: 2px solid #ff0000;
-    color: #ff0000;
+    border: 2px solid #F86064;
+    color: #F86064;
     font-size: 14px;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
+    font-style: normal;
     
 }
 
 .container_header button {
     margin: 0 0 0 25px;
+}
+
+.container_banner img {
+    position: relative;
+}
+
+.container_banner h1 {
+    font-size: 56px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.container_banner p {
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.btn-appeal {
+    padding: 16px 28px;
+    background-color: #F86064;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.container_elements {
+    position: absolute;
+    top: 0;
+    bottom: 0;
 }
 
 
